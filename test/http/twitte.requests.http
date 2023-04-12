@@ -1,0 +1,21 @@
+### Post to /twitte
+POST http://localhost:3000/twitte
+Content-Type: application/json
+
+{
+    "user": 8,
+    "twitte": "Hello this is my first tweet!"
+}
+
+### GET All  to /twitte
+GET http://localhost:3000/twitte
+Content-Type: application/json
+
+
+### GET by Id to /twitte
+GET http://localhost:3000/twitte/10
+Content-Type: application/json
+
+### GET by Title to /twitte
+GET http://localhost:3000/twitte/find/Hello this
+Content-Type: application/json

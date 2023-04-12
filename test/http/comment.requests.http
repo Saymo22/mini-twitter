@@ -1,0 +1,8 @@
+### POST to /twitte/:id/comment
+POST http://localhost:3000/twitte/4/comment
+Content-Type: application/json
+
+{
+    "user_id": 8,
+    "comment": "Backing"
+}

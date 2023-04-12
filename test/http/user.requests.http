@@ -1,0 +1,29 @@
+### POST to /user
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "name":"Melo",
+    "last_name":"Orumelo",
+    "email":"mel2o@gmail.com",
+    "password_hash":"1q2w3e"
+}
+
+### GET to /user - by ID
+GET http://localhost:3000/user/2
+Content-Type: application/json
+
+### GET to /user - by email
+GET http://localhost:3000/user/find/usuario_teste@gmail.com
+Content-Type: application/json
+
+### PATHC to /user
+PATCH  http://localhost:3000/user/8
+Content-Type: application/json
+
+{
+    "name":"Alan",
+    "last_name":"Sant",
+    "email":"usuario_teste_2@gmail.com",
+    "password_hash":"1q2w3e"
+}
